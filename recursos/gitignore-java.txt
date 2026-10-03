@@ -1,0 +1,50 @@
+# =========================================================
+# .gitignore recomendado para proyectos Java — DSY1102
+# Copia este contenido a un archivo llamado .gitignore
+# en la raíz de tu proyecto.
+# =========================================================
+
+# --- Compilados y empaquetados ---
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# --- Carpetas de salida ---
+out/
+bin/
+build/
+target/
+
+# --- Maven / Gradle ---
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+
+# --- IntelliJ IDEA ---
+# Se ignora la configuración personal; se puede versionar el resto de .idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/httpRequests/
+*.iws
+
+# --- NetBeans / Eclipse / VS Code (por si alguien del equipo los usa) ---
+nbproject/private/
+.classpath
+.project
+.settings/
+.vscode/
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Secretos (¡NUNCA al repositorio!) ---
+.env
+*.env
+application-local.properties
