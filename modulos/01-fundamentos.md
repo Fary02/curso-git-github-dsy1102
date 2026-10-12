@@ -211,9 +211,15 @@ Profundizamos en el [Módulo 6](06-deshacer-y-buenas-practicas.md).
 ## ✅ Checkpoint
 
 1. ¿Cuáles son las tres áreas de Git y qué comando mueve cambios entre ellas?
-2. Si modificas un archivo y haces `git commit` sin `git add`, ¿qué ocurre?
-3. ¿Por qué no se deben versionar los archivos `.class`?
+  Las 3 areas en mis palabras son: el directorio de trabajo (espacio donde hago cambios), el espacio donde comento que trabaje y el repositorio donde tengo mi proyecto (Las areas tienen otro nombre como tal, pero no manejo ese nivel de tecnisimo aun)
 
+2. Si modificas un archivo y haces `git commit` sin `git add`, ¿qué ocurre?
+  Lo que entiendo segun mi experiencia es que no se registran cambios que subir, en pocas palabras no puedes hacer un git commit sin contenido :)
+
+3. ¿Por qué no se deben versionar los archivos `.class`?
+  El archivo .class no lo manejo como tal, pero existen otros como .gitignore, .env e incluso la carpeta modules que en este ultimo caso se compila siempre en local (en mis palabras, es lo que entiendo), .env es para guardar claves ES INSEGURO SUBIR LAS CREDENCIALES, y el .gitignore son directamente el conjunto que le diremos a git que ignore al hacer commit.
+
+PD: No son textualmente las mismas respuestas pero considero que van al mismo puerto...
 <details>
 <summary>Ver respuestas</summary>
 
