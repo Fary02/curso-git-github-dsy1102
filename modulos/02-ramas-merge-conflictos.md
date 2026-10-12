@@ -214,8 +214,13 @@ git merge --abort      # vuelve todo a como estaba antes del merge
 ## ✅ Checkpoint
 
 1. Estás en `feature/prestamo` y quieres traer a `main` lo que hiciste. ¿Qué comandos ejecutas?
+   Primero me cambio de rama con git switch <nombre de rama> despues hago git merge <rama> y finalmente borro la rama en la que hice las modificaciones con git branch -d <nombre de rama>
+
 2. ¿Cuándo ocurre un fast-forward?
+   Ocurre cuando avanzo en una rama nueva y no hago modificaciones en main / master, esto no te solicita hacer un commit (Lo entiendo como avanzar en el tiempo, sin realizar cambios en la linea principal)
+
 3. Después de editar el archivo en conflicto, ¿qué dos comandos cierran el merge?
+   Si hablamos de serian git add <nombre archivo> y git commit <"mensaje> adicionalmente una vez cerrado el merge toca borrar la rama alternativa con git branch -d <nombre de rama>
 
 <details>
 <summary>Ver respuestas</summary>
