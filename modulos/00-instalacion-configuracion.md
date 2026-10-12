@@ -93,6 +93,6 @@ git config --list --global
 
 ## ✅ Checkpoint
 
-- [ ] `git --version` muestra una versión.
-- [ ] `git config user.name` y `git config user.email` devuelven tus datos.
-- [ ] Tienes cuenta en GitHub con 2FA activado.
+- [✅] `git --version` muestra una versión.
+- [✅] `git config user.name` y `git config user.email` devuelven tus datos.
+- [✅] Tienes cuenta en GitHub con 2FA activado.
